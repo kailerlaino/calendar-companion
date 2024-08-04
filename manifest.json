@@ -13,7 +13,8 @@
     "https://www.googleapis.com/"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "type": "module"
   },
   "action": {
     "default_popup": "popup/popup.html",
@@ -30,7 +31,7 @@
     "128": "images/icon128.png"
   },
   "oauth2": {
-    "client_id": "YOUR_CLIENT_ID_HERE",
+    "client_id": "575268943823-lnbsi33hm1f36tsb001g3435lvgdq8ll.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/calendar.readonly"
     ]
